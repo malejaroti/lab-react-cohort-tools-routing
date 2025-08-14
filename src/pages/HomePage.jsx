@@ -23,7 +23,7 @@ function HomePage() {
       {students &&
         students.map((student) => {
           return (
-              <Link key={student._id} to={`/student/${student._id}`}>
+              <Link key={student._id} to={`/students/${student._id}`}>
                 <StudentCard  {...student}/>
               </Link>
           );
